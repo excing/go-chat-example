@@ -1,6 +1,6 @@
 # GO Chat Example
 
-此示例基于 [gorilla/websocket/examples/chat](https://github.com/gorilla/websocket/examples/chat)，
+此示例基于 [gorilla/websocket/examples/chat](https://github.com/gorilla/websocket/tree/master/examples/chat)，
 在此基础上，实现了房间功能，是匿名聊天室的简单示例。
 
 房间功能实现方式是用户在连接 WebSocket 时，通过 ws url 发送房间 ID 到服务端，
